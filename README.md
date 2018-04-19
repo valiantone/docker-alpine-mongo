@@ -28,7 +28,7 @@ with the volume -v option:
 
     $ docker run -d --name mongo -p 27017:27017 \
 	  -v /somewhere/onmyhost/mydatabase:/data/db \
-	  mvertes/alpine-mongo
+	  valiantone/alpine-mongo
 
 To run a shell session:
 
